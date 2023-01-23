@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap");
+
+:root {
+  --btn-color: #f1c40f;
+  --icon-color: darkorange;
+  --card-topic-bg: #ddd;
+  --copyright-color: #444;
+  --default-color: #000;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #eee;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+/* header and mav bar */
+
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+}
+
+#logo {
+  width: 55vh;
+  padding: 20px;
+}
+
+#logo-div {
+  position: relative;
+  left: -7.5vw;
+}
+
+nav {
+  position: relative;
+  right: -5vw;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 35vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* first display text or hero */
+
+h1{
+  font-size: 1.75rem;
+}
+
+#hero {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+  height: 200px;
+}
+
+#hero-email {
+  height: 23px;
+  padding: 1px;
+  border-radius: 5px;
+  border: solid 0.1px grey;
+  padding: 6px;
+}
+
+#hero-button {
+  padding: 10px 20px;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000;
+  display: block;
+  margin: 15px auto;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+#hero-button:hover,
+.card-btn:hover {
+  transition: ease-in 0.25s;
+  background-color: var(--icon-color);
+}
+
+/* features */
+
+#features {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.icon {
+  display: flex;
+  color: var(--icon-color);
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  margin-top: 1vw;
+}
+
+p {
+  padding: -1vw !important;
+  margin-top: -2vw !important;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+.grid {
+  display: flex;
+}
+
+/* functionality or how it all works */
+
+#how_it_works {
+  max-width: 560px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+/* pricing and all the cards */
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 85vw;
+  justify-content: space-evenly;
+  margin: 60px auto 0;
+}
+
+.price:hover {
+  color: black;
+  background-color: var(--card-topic-bg);
+  width: auto;
+  height: auto;
+  transition: ease-in-out 0.25s;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: space-around;
+  width: 325px;
+}
+
+.card-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-about > .card-text {
+  padding: 8px;
+}
+
+.card-button {
+  margin: 0 auto 14px;
+}
+
+.card-btn {
+  background-color: var(--btn-color);
+  border: transparent;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+h4 {
+  border: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: var(--card-topic-bg);
+  padding: 10px;
+  margin-top: 0;
+  color: #000;
+}
+
+.card-heading {
+  text-align: center;
+  font-size: 22px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+/* footer */
+
+footer {
+  border: transparent;
+  border-radius: 10px ;
+  margin-top: 30px;
+  background-color: var(--card-topic-bg);
+  display: block;
+  padding: 20px;
+}
+
+footer > ul{
+  margin-top: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li{
+  padding: 0 10px;
+}
+
+span{
+  display: flex;
+}
+
+#copyright{
+  justify-content: flex-end;
+  margin-top: -10px;
+  font-size: 1em;
+  color: var(--copyright-color);
+}
+
+#note{
+  justify-content: center;
+  padding: 30px;
+}
+
+
