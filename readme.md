@@ -3,7 +3,7 @@ Objective: Build an app that is functionally similar to https://product-landing-
 
 User Stories:
 
-Your product landing page should have a header element with a corresponding id="header"
+Your product landing page should have a header element with a corresponding id="header" <br>
 You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
 Within the #header element, you can see a nav element with a corresponding id="nav-bar"
 You can see at least three clickable elements inside the nav element, each with the class nav-link
