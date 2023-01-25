@@ -136,7 +136,7 @@ h3 {
 
 p {
   padding: -1vw !important;
-  margin-top: -2vw !important;
+  margin-top: -2vw ;
 }
 
 .description {
@@ -224,7 +224,6 @@ h4 {
   font-weight: bold;
   font-size: 1.5rem;
   padding: 15px;
-  margin-top: 60px;
 }
 
 /* footer */
