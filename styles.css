@@ -335,6 +335,7 @@ nav > ul {
 }
 
 #hero > h1 {
+  margin-top: auto;
   margin-bottom: 20px;
   word-wrap: break-word;
 }
