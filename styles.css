@@ -178,8 +178,8 @@ p {
   align-items: center;
 }
 
-.card-about > .card-text {
-  padding: 8px;
+.card-text:last-of-type {
+  margin: 0 0 35px 0;
 }
 
 .card-button {
