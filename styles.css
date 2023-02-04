@@ -112,6 +112,7 @@ h1{
 h3 {
   font-size: 1.45rem;
   font-weight: 700;
+  margin: 0;
 }
 
 .icon {
@@ -121,13 +122,8 @@ h3 {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  margin-top: 1vw;
 }
 
-p {
-  padding: -1vw !important;
-  margin-top: auto ;
-}
 
 .description {
   display: flex;
@@ -136,6 +132,10 @@ p {
   height: 125px;
   width: 80vw;
   padding: 5px;
+}
+
+.description > p {
+  margin: 0;
 }
 
 .grid {
@@ -178,6 +178,10 @@ p {
   align-items: center;
 }
 
+.card-text{
+  margin-top: auto;
+}
+
 .card-text:last-of-type {
   margin: 0 0 35px 0;
 }
@@ -216,6 +220,8 @@ h4 {
   padding-top: 30px;
   padding-bottom: 15px;
 }
+
+
 
 /* footer */
 
