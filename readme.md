@@ -3,4 +3,4 @@
 Made after hard-work. <br/>
 Also I have made it responsive according to screen sizes. <br/>
 This is a replica of an existing [Product Landing Page](https://product-landing-page.freecodecamp.rocks/). <br/>
-Here's the link to [my replica](https://kb0207.github.io/){:target="_blank" rel="noopener"} of this webpage
+Here's the link to [my replica](https://kb0207.github.io/) of this webpage
