@@ -8,10 +8,8 @@
   --default-color: #000;
 }
 
-
 * {
   scroll-behavior: smooth;
-
 }
 
 body {
@@ -124,7 +122,6 @@ h3 {
   width: 20vw;
 }
 
-
 .description {
   display: flex;
   flex-direction: column;
@@ -217,11 +214,7 @@ h4 {
 .price {
   font-weight: bold;
   font-size: 1.5rem;
-  padding-top: 30px;
-  padding-bottom: 15px;
 }
-
-
 
 /* footer */
 
@@ -259,7 +252,6 @@ span{
   justify-content: center;
   padding: 30px;
 }
-
 
 /* media queries */
 
@@ -313,7 +305,7 @@ nav {
     padding: 0 50px;
   }
   nav li {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
   }
 }
 
@@ -447,7 +439,6 @@ nav > ul {
 .card > .card-heading {
   background-color: #ddd;
   color: black;
-/*   padding: 15px 0; */
   width: 100%;
   text-transform: uppercase;
   font-weight: 600;
